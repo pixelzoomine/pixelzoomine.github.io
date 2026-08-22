@@ -4,7 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>PIXEL ZOO · 7,777 animated creatures, mined by hand</title>
-    <meta name="description" content="7,777 animated pixel-art creatures drawn in pure HTML and CSS. No whitelist: they are mined. Find the nonce, pay about $0.30 and find out which animal is yours." />
+    <!--  No price in here.  This file is served before any JavaScript runs, so
+          whatever number it names is frozen at build time, and the mint is priced
+          in wei against a promise written in dollars: the two drift apart on their
+          own.  A search result quoting a price the contract stopped charging is a
+          broken promise nobody can even edit.  The live figure is on the page,
+          read off the chain.  See src/hooks/useEthUsd.js.                     -->
+    <meta name="description" content="7,777 animated pixel-art creatures drawn in pure HTML and CSS. No whitelist: they are mined. Find the nonce, pay cents in ETH and find out which animal is yours." />
     <meta name="theme-color" content="#04060a" />
 
     <meta property="og:type" content="website" />
@@ -14,7 +20,7 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <script type="module" crossorigin src="./assets/index-Devx6iZ4.js"></script>
+    <script type="module" crossorigin src="./assets/index-BJBb5QYQ.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-DukNc_J9.css">
   </head>
   <body>
